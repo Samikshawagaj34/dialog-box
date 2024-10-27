@@ -1,0 +1,110 @@
+.page-heading
+{
+    text-align: center;
+    font-size: 35px;
+    color: #004d00;
+}
+.nav-family
+{
+    background-color: #003300;
+    color: white;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+.nav-ahref
+{
+    color: white;
+    text-decoration: none;
+    margin: 0px 50px;
+    font-size: 20px;
+}
+.nav-ahref:hover
+{
+    color: orange;
+}
+.login-btn
+{
+    background-color: orange;
+    color: black;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:20px ;
+    margin-left: 640px;
+    margin-top: 20px;
+}
+.login-btn:hover
+{
+    color: white;
+}
+.gate-img
+{
+    width: 400px;
+    height: 300px;
+    margin-left: 490px;
+    margin-top: 20px;
+}
+.overlay
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.model
+{
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    position: relative;
+   
+    
+}
+.from{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.from-header
+{
+    text-align: center;
+}
+.from-input
+{
+    width: 300px;
+    margin: 10px 0;
+    font-size: 20px;
+    padding: 5px 10px;
+
+}
+.btn-login
+{
+    background-color: orange;
+    color: black;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:20px ;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.close-icon
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 40px;
+
+}
